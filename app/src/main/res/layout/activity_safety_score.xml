@@ -1,0 +1,39 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="#F9F9F9">
+
+    <!-- Loading animation -->
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Safety score -->
+    <TextView
+        android:id="@+id/tvSafetyScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Safety Score: "
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"
+        android:textColor="#333" />
+
+    <!-- Additional information -->
+    <TextView
+        android:id="@+id/tvAdditionalInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fetching the latest data..."
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"
+        android:textColor="#777" />
+
+</LinearLayout>
